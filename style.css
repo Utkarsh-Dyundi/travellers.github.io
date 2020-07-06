@@ -159,12 +159,15 @@ padding-right: 7%;
     width: 800px;
   }
   .title{
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .ihead{
     font-size: 4rem;
   }
   .itop2{
+    font-size: 2rem;
+  }
+  .nav-link{
     font-size: 2rem;
   }
 }
