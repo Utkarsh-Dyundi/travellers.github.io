@@ -154,3 +154,11 @@ padding-right: 7%;
   width: 80%;
   margin: auto;
 }
+@media (max-width:1200px) {
+  .ipic{
+    width: 500px;
+  }
+  .title{
+    font-size: 3rem;
+  }
+}
