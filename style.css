@@ -156,9 +156,15 @@ padding-right: 7%;
 }
 @media (max-width:1200px) {
   .ipic{
-    width: 500px;
+    width: 800px;
   }
   .title{
     font-size: 3rem;
+  }
+  .ihead{
+    font-size: 4rem;
+  }
+  .itop2{
+    font-size: 2rem;
   }
 }
