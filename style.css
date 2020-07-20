@@ -148,19 +148,19 @@ padding-right: 7%;
   margin: auto;
 }
 @media (max-width:1200px) {
-  .ipic{
-    width: 800px;
-  }
   .ihead{
-    font-size: 4rem;
-  }
-  .itop2{
     font-size: 2rem;
   }
+  .itop2{
+    font-size: 1rem;
+  }
   .soc{
-    width: 30%;
+    width: 40%;
   }
   .explore{
     font-size: 2rem;
+  }
+  .top{
+    padding: 2% 2%;
   }
 }
