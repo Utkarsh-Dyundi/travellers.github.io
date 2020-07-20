@@ -158,6 +158,10 @@ padding-right: 7%;
   .soc{
     width: 45%;
   }
+  .soci{
+    display: block;
+    margin-bottom: 20px;
+  }
   .explore{
     font-size: 2rem;
   }
@@ -173,4 +177,5 @@ padding-right: 7%;
   .co{
     font-size: 1rem;
   }
+
 }
