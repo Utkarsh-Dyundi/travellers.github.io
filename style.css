@@ -151,26 +151,16 @@ padding-right: 7%;
   .ipic{
     width: 800px;
   }
-  .title{
-    font-size: 4.5rem;
-  }
   .ihead{
     font-size: 4rem;
   }
   .itop2{
     font-size: 2rem;
   }
-  .nav-link{
-    font-size: 2.8rem;
-  }
-  .explore{
-    font-size: 4.5rem;
-  }
-  .hambug{
-    width:25%;
-    height: 50px;
-  }
   .soc{
     width: 30%;
+  }
+  .explore{
+    font-size: 2rem;
   }
 }
