@@ -170,4 +170,7 @@ padding-right: 7%;
   .title{
     margin: 0;
   }
+  .co{
+    font-size: 1rem;
+  }
 }
