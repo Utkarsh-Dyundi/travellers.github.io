@@ -153,6 +153,7 @@ padding-right: 7%;
   }
   .itop2{
     font-size: 1rem;
+    text-align: center;
   }
   .soc{
     width: 45%;
@@ -162,5 +163,11 @@ padding-right: 7%;
   }
   .top{
     padding: 0;
+  }
+  .taj{
+    margin-bottom: 25px;
+  }
+  .title{
+    margin: 0;
   }
 }
