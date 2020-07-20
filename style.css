@@ -1,137 +1,185 @@
-body {
+.site{
+  max-width: 100%;
+}
+
+  html,body{
+    width: 100%;
+    max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+  h1{
+  font-family: 'Oswald', sans-serif;
+  color:#092532;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.title{
+  font-size: 2rem;
+  margin-top: 10px;
+  font-family: 'Chelsea Market', cursive;
+  font-weight: bold;
+}
+.div1{
+  background-image: linear-gradient(to right , #6bd191, #64d5a6, #62d9b9, #67dcca, #71ded8, #57d9e1, #3cd3ea, #21ccf3, #00bbff, #00a6ff, #008eff, #5f6ffb);
   margin: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: #bbb;
+  background-position: center;
+  background-size: cover;
+}
+.nav-item{
+  font-family: 'Varela Round', sans-serif;
+  padding: 0 10px;
+}
+.explore{
+  font-size: 300%;
+  padding: 10% 10% 10% 17%;
+  text-align: left;
+  color: white;
+    font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.center{
+  text-align: center;
 }
 
-a {
-  color: #000;
+.header{
+  font-size: 3rem;
+}
+.links{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+    color: #01a9b4;
+    text-decoration: none;
+
+}
+.links:hover{
+  color: red;
+  text-decoration:none;
+
+}
+.taj{
+  width: 70%;
+  margin-top: 10px;
+    border-radius: 35px;
+}
+.top{
+padding-left: 7%;
+padding-right: 7%;
+}
+.pisa{
+  width: 45%;
+  margin-left: 5%;
+}
+.fb{
+  width: 30px;
+}
+.button{
+  margin: 0 2%;
+}
+.slideshow{
+  width: 50%;
+  margin: auto;
+}
+.quotes{
+  font-size: 1rem;
+  font-family: 'Chelsea Market', cursive;
+}
+.footer{
+  padding: 1% 10%;
+  text-align:center;
+}
+.cont{
+  width: 16px;
+}
+.con{
+  margin: 5px;
+}
+.place{
+  text-align: center;
 }
 
-/* header */
+/* indian page */
 
-.header {
-  background-color: #fff;
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
-  width: 100%;
-  z-index: 3;
+.ihead{
+  font-size: 2.5rem;
+  color: #092532;
+    font-family: 'Oswald', sans-serif;
+    min-width: 300px;
 }
-
-.header ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  overflow: hidden;
-  background-color: #fff;
+.itop{
+  text-align: center;
 }
-
-.header li a {
-  display: block;
-  padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
-  text-decoration: none;
+.itop2{
+  width: 90%;
+  text-align: left;
+  font-size: 1rem;
+  margin: auto;
+  font-family: 'Chelsea Market', cursive;
 }
+.li{
+  font-size: 1.2rem;
+   padding: 30px 0;
 
-.header li a:hover,
-.header .menu-btn:hover {
-  background-color: #f4f4f4;
 }
-
-.header .logo {
-  display: block;
-  float: left;
-  font-size: 2em;
-  padding: 10px 20px;
-  text-decoration: none;
+.ipic{
+  width: 300px;
 }
-
-/* menu */
-
-.header .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height .2s ease-out;
+.ifoot{
+  text-align: center;
 }
-
-/* menu icon */
-
-.header .menu-icon {
-  cursor: pointer;
-  float: right;
-  padding: 28px 20px;
-  position: relative;
-  user-select: none;
+/* contact */
+.chead{
+  width: 80%;
+  margin: auto;
 }
-
-.header .menu-icon .nav-icon {
-  background: #333;
-  display: block;
-  height: 2px;
-  position: relative;
-  transition: background .2s ease-out;
-  width: 18px;
+.contact{
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
 }
+.co{
+  font-size: 1.5rem;
+  font-family: 'Chelsea Market', cursive;
 
-.header .menu-icon .nav-icon:before,
-.header .menu-icon .nav-icon:after {
-  background: #333;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
 }
-
-.header .menu-icon .nav-icon:before {
-  top: 5px;
+/* feedback */
+.feedback{
+  width: 80%;
+  margin: auto;
 }
-
-.header .menu-icon .nav-icon:after {
-  top: -5px;
-}
-
-/* menu btn */
-
-.header .menu-btn {
-  display: none;
-}
-
-.header .menu-btn:checked ~ .menu {
-  max-height: 240px;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon {
-  background: transparent;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:before {
-  transform: rotate(-45deg);
-  top:0;
-}
-
-.header .menu-btn:checked ~ .menu-icon .nav-icon:after {
-  transform: rotate(45deg);
-  top:0;
-}
-
-
-/* 48em = 768px @ 16pt font */
-
-@media (min-width: 48em) {
-  .header li {
-    float: left;
+@media (max-width:1200px) {
+  .ipic{
+    width: 800px;
   }
-  .header li a {
-    padding: 20px 30px;
+  .title{
+    font-size: 5rem;
   }
-  .header .menu {
-    clear: none;
-    float: right;
-    max-height: none;
+  .ihead{
+    font-size: 4rem;
   }
-  .header .menu-icon {
-    display: none;
+  .itop2{
+    font-size: 2rem;
   }
+  .nav-link{
+    font-size: 2rem;
+  }
+  .explore{
+    font-size: 4.5rem;
+  }
+  .hambug{
+    width:15%;
+  }
+  .soc{
+    width: 30%;
+  }
+  .explore{
+      width: 75%;
+      padding: 0;
+      font-size: 3rem;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      margin-bottom:15px;
+      margin: auto;
+      margin-left: ;
+    }
 }
