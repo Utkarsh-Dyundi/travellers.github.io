@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Varela+Round&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Travellers</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -53,11 +54,11 @@
   <h1 class="center">Lets start our search</h1>
   <br><br>
 <div class="row">
-<div class="col-lg-6 center">
+<div class="col-lg-6 center" data-aos="fade-right">
 <a class="links div2"href="india.html">In india<br><img class="taj" src="https://cdn.pixabay.com/photo/2015/07/29/22/56/india-866692__340.jpg"alt="..."></a>
 
 </div>
-<div class="col-lg-6 center">
+<div class="col-lg-6 center" data-aos="fade-left">
   <a class="links div2"href="outside.html">Outside india<br><img class="taj" src="images/eiffle.jpg"alt="..."></a>
 </div>
 </div>
@@ -107,5 +108,11 @@
   <a class="con"href="#"><img class="cont" src="images/facebook.png"alt="..."></a><br>
 
 &copy;Copyright 2020 travellers</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+     duration: 1000
+   });
+ </script>
 </body>
 </html>
